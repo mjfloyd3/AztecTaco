@@ -1,0 +1,79 @@
+body {
+      /*background-color: lightseagreen;*/
+      background-image: url("foodtruck.jpg");
+      color: red;
+      background-size: cover;
+      text-align: left;
+      position: relative;
+}
+
+div.head
+      { 
+      text-align: center;
+      width: 600px auto;
+}  
+
+div.Main-Links{
+      font-family: helvetica;
+      text-align: center;
+	padding: 35px;
+      margin: 10px;
+}
+
+img   {
+	    width: 300px;
+      float: right;
+}
+
+a    { 
+      padding: 5px;
+      border-radius: 10px;
+      border-color: black;
+      border-style: solid;
+      color: black;
+      margin: 15px;
+}
+
+a:hover{
+       color: black;
+       border-radius: 10px;
+       border-style: solid;
+       transition-property: color;
+       transition-duration: .2s;
+      }
+a:hover{
+       color: lightgreen;
+       border-color: lightgreen;
+      }
+img#header{
+      float: none;
+      width: 400px;
+      }
+li    {
+      margin-bottom: 25px;
+      }
+@media (max-width:900px){
+      
+    a{
+        min-width: 50px;
+        margin-bottom: 25px;
+        display: block;
+      }
+      } 
+
+@media (max-width:900px){
+      
+    body{
+        min-width: 50px;
+        margin-bottom: 25px;
+        display: block;
+      }
+      }
+@media (max-width:900px){
+      
+    img{
+        min-width: 50px;
+        margin-bottom: 25px;
+        display: block;
+        float: center;
+}}
