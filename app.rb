@@ -1,5 +1,5 @@
-require 'dotenv/load'
-require 'sendgrid-ruby'
+# require 'dotenv/load'
+# require 'sendgrid-ruby'
 require 'sinatra' 
 
 #set up routes
@@ -18,7 +18,6 @@ end
 
 get ("/contact") do
 	erb :contact
-end
 
 from = SendGrid::Email.new(email: params["email"])
 	subject = 'Hello World from the SendGrid Ruby Library'

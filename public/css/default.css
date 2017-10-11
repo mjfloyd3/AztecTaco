@@ -8,6 +8,7 @@ h1 {
 	text-align: center;
 	font-size: 55px;
 	margin: 0;
+	display: inline;
 }
 
 img[src="ramon.jpg"] {
@@ -96,6 +97,19 @@ p {
     width: 100%;
     color: black;
     text-align: right;
+}
+
+.logo_container{
+	width: 40%;
+	margin: 0 auto;
+	background-color: yellow;
+	
+}
+
+img[src="star.gif"] {
+	height: 100px;
+	position: relative;
+	display: inline;
 }
 
 
