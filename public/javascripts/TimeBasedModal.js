@@ -1,18 +1,18 @@
 
-var modal = document.getElementById('modalcontent');
+var modals = document.getElementById('modalcontent');
 var closeBtn = document.getElementsByClassName('closeBtn')[0];
 
 closeBtn.addEventListener('click', closeModal);
 
 
 function openModal(){
-	modal.style.display = 'block';
+	modals.style.display = 'block';
 }
 
 function closeModal(){
-	modal.style.display = 'none';
+	modals.style.display = 'none';
 }
 
 
-setTimeout(openModal, 5000);
+setTimeout(openModal, 4000);
 

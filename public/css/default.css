@@ -1,3 +1,5 @@
+/* body and header */
+
 body {
 	background-color: #FFF;
 }
@@ -9,13 +11,14 @@ h1 {
 	font-size: 55px;
 	display: inline;
 	position: relative;
-	margin-left: 35px;
+	margin-left: 187px;
 }
 
 img[src="ramon.jpg"] {
 	width: 100%;
-	height: auto;
+
 }
+
 
 h4 {
 	margin: 0;
@@ -67,7 +70,8 @@ h3 {
 
 .columnpress {
 	float: left;
-	width: 600px;
+	width: 580px;
+	margin-right: 40px;
 }
 
 .link {
@@ -80,9 +84,14 @@ h3 {
 
 .columnabt {
 	float: left;
-	width: 600px;
+	width: 580px;
 	margin-left: 40px;
 	margin-bottom: 15px;
+}
+.abt {
+	border: solid;
+	border-width: 2px;
+	border-radius: 30px;
 }
 
 p {
@@ -101,25 +110,28 @@ p {
 }
 
 .logo_container{
-	width: 850px;
+	width: 100%;
 	margin: 0 auto;
 }
 
 
 .logo_container #left {
-	height: 90px;
+	height: 70px;
 	position: relative;
 	display: inline;
-	padding: 26px;
+	padding-left: 90px;
+	padding-bottom: 0;
 	float: left;
 }
 
 .logo_container #right {
-	height: 90px;
+	height: 70px;
 	position: relative;
 	display: inline;
 	float: right;
-	padding: 26px;
+	padding-bottom: 0;
+	padding-right: 90px;
+	margin-left: 0px;
 }
 
 
@@ -156,22 +168,42 @@ img[src="insta.svg"]:hover {
 	height: 100px;
 }
 
+/*menu styling*/
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
+.menuleft {
+	float: left;
+	width: 400px;
+	margin-left: 150px;
 }
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
+.menuleft .menuhead {
+	text-align: left;
 }
 
+.menuright {
+	float: right;
+	width: 400px;
+	margin-right: 150px;
+}
+
+.menuright .menuhead {
+	text-align: left;
+}
+
+/*calendar styling */
+.calimages {
+	margin-left: 100px;
+}
+
+/*form styling for contact page */
 .form-style-1 {
     margin:10px auto;
     max-width: 400px;
     padding: 20px 12px 10px 20px;
-    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font: 13px "Hins", sans-serif;
+    border-style: solid;
+    border-width: 3px;
+    background-color: lightgrey;
 }
 
 .form-style-1 li {
@@ -182,12 +214,20 @@ img[src="insta.svg"]:hover {
 }
 
 .form-style-1 label{
-	color: #D8CF91;
+	color: navy;
     margin:0 0 3px 0;
     padding:0px;
     display:block;
     font-weight: bold;
+    font-family: "Hind";
 }
+
+img[src="aztecbird.jpg"] {
+	height: 250px;
+	margin: 40px 15px 15px 90px;
+} 
+
+
 
 .form-style-1 input[type=text], 
 .form-style-1 input[type=date],
@@ -254,22 +294,20 @@ select{
     color:red;
 }
 
-.fontm {
-	font-family: Arial;
+/* modal */
 
-}
-
-.modal {
+.modals {
 	display: none;
 	position: fixed;
 	margin-left: 450px;
 	width: 30%;
 	height: 30%;
-	background-color: rgba(40, 20, 160, 0.65);
+	background-color: #FFF;
 	border-style: solid;
-	border-color: grey;
+	border-color: #D72638;
 	z-index: 1;
 	overflow: auto;
+	
 }
 
 .closeBtn{
@@ -277,7 +315,7 @@ select{
   float: right;
   font-size:18px;
   color: grey;
-  font-family: 'Open Sans Condensed';
+  font-family: 'Hind';
  }
 
 #useremail {
